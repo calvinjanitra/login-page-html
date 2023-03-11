@@ -27,8 +27,7 @@ body {
     display: flex;
     width: 500px;
     height: 670px;
-    /* border: 1px solid red; */
-    width: 500px;
+    /* border: 1px solid yellow; */
     padding: 40px;
     background: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
@@ -44,21 +43,26 @@ body {
     transform: translateX(-500px);
 }
 
-.left,
-.right {
+.left {
     width: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+.right {
+    width: 455px;
+    /* border: 1px solid red; */
 }
 
 .left .login .btn {
+    /* border: 1px solid red; */
     height: 40px;
     width: 300px;
     margin: auto;
-    background-color: red;
+    background-color: #3c8a7c00;
     border-radius: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 .left .login .btn button {
     background-color: transparent;
@@ -112,8 +116,8 @@ body {
 }
 
 .left .login a:hover {
-    background: #03e9f4;
-    color: #fff;
+    /* background: #03e9f4; */
+    color: #004a56;
     border-radius: 5px;
 }
 
@@ -216,7 +220,7 @@ body {
     color: white;
 }
 .left .logreg a {
-    color: red;
+    color: #5caba6;
     text-decoration: none;
 }
 
@@ -224,11 +228,12 @@ body {
     height: 40px;
     width: 300px;
     margin: auto;
-    background-color: red;
+    background-color: rgba(242, 248, 247, 0);
     border-radius: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 .right .login .btn button {
     background-color: transparent;
@@ -243,7 +248,7 @@ body {
 }
 
 .right .login .user-box input {
-    width: 500px;
+    width: 100%;
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
@@ -282,8 +287,8 @@ body {
 }
 
 .right .login a:hover {
-    background: #03e9f4;
-    color: #fff;
+    /* background: #03e9f4; */
+    color: #004957;
     border-radius: 5px;
 }
 
@@ -293,7 +298,7 @@ body {
 }
 
 .right .login .submt {
-    width: 500px;
+    /* width: 500px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,7 +364,7 @@ body {
 
 .right .google .button {
     margin-bottom: 10px;
-    width: 500px;
+    width: 100%;
     display: flex;
     /* padding: 0.875rem 1.75rem; */
     font-size: 0.9rem;
@@ -382,17 +387,17 @@ body {
 .right .button:hover {
     transform: scale(1.02);
 }
-.right .logreg p {
+.right .reglog p {
     color: white;
 }
-.right .logreg a {
-    color: red;
+.right .reglog a {
+    color: #5caba6;
     text-decoration: none;
 }
 .right {
     position: absolute;
     transform: translateX(500px);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: none; */
 }
 .wrapper .right {
